@@ -155,9 +155,19 @@ const number=(...add)=>{
           
           console.log(...add);
           let num=0;
-        for (let i of add){
+        for (let i of add){// using to array ke value and in using key and index
           num += i;
         }
         console.log(num);
 }
 number(1,2,3,4,5,6,7);
+
+
+const document=(a,b,...c)=>{
+          console.log(`${a} and ${b}`)
+          console.log(c)
+          console.log(c[0])
+          console.log(c.length)
+          console.log(c.indexOf("ram"))
+}
+document("Apple","banana","ram","hanuman")
