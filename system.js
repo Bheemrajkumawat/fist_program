@@ -192,3 +192,11 @@ const Spread=(a,b,c)=>{
  let arrvalue=[1,4,7]
   console.log(...arrvalue)
   Spread(...arrvalue)
+
+
+  const  scop=(a,b,c)=>{
+          console.log(a-b-c)
+  }
+  let  Spreads=[4,5,6]
+  console.log(...Spreads)
+  scop(...Spreads)
