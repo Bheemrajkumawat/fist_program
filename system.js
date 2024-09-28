@@ -181,4 +181,14 @@ const arr=()=>{
           }
           console.log(str)
 }
-arr()
+arr()// output=0123456789
+
+
+//Spread Operator in ES6
+
+const Spread=(a,b,c)=>{
+    console.log(a+b+c)
+}
+ let arrvalue=[1,4,7]
+  console.log(...arrvalue)
+  Spread(...arrvalue)
