@@ -133,4 +133,17 @@ console.log(num1(40,90));
 
 // ES6 Default Parameters 
 
+const name=function(a,b){
+          console.log(a+b)
+}
+name(4)
 
+const name2=function (a,b=2){
+          console.log(a+b)
+}
+name2(4)
+
+const name3=(a,b=3)=>{
+          console.log(a+b)
+}
+name3(4)
