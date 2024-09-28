@@ -171,3 +171,14 @@ const document=(a,b,...c)=>{
           console.log(c.indexOf("ram"))
 }
 document("Apple","banana","ram","hanuman")
+
+
+const array=[1,2,3,4,5,5,7,8,9,9]
+const arr=()=>{
+          let str="";
+          for(i in array){
+                    str+=i;
+          }
+          console.log(str)
+}
+arr()
