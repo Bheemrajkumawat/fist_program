@@ -147,3 +147,17 @@ const name3=(a,b=3)=>{
           console.log(a+b)
 }
 name3(4)
+
+
+// Rest Parameters in ES6
+
+const number=(...add)=>{
+          
+          console.log(...add);
+          let num=0;
+        for (let i of add){
+          num += i;
+        }
+        console.log(num);
+}
+number(1,2,3,4,5,6,7);
