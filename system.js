@@ -200,3 +200,13 @@ const Spread=(a,b,c)=>{
   let  Spreads=[4,5,6]
   console.log(...Spreads)
   scop(...Spreads)
+
+
+
+  const Array=[2,4,5,6]
+  const Array2=[9,6,5,4]
+  let concat=Array.concat(Array2)
+  console.log(concat)
+
+  let dubal=[...Array,...Array2]
+  console.log(dubal)
