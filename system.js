@@ -208,5 +208,15 @@ const Spread=(a,b,c)=>{
   let concat=Array.concat(Array2)
   console.log(concat)
 
+  //es6
   let dubal=[...Array,...Array2]
   console.log(dubal)
+
+
+
+  let arrac=[1,2,3,4]
+  let arrac2=[5,6,7,8]
+
+  let arrac3=[...arrac,1,2,3,...arrac2]
+  console.log(arrac3)
+  console.log(arrac)
